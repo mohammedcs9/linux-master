@@ -1,0 +1,22 @@
+#Linux-comments:
+1.pwd
+2.ls /cd Music
+3.mkdir add file
+4.rmdir remove file
+5.touch text file
+6.rm remove file
+7.cat read text file
+8.nano can write in file text
+9.cd .. exit folder/cd ?namefile/?namefile/   cd ~exitfiles
+10./*sudo*/ apt update
+11.apt full-upgrade -y
+12.ping google.com //[142.250.181.78]
+13.ipconfig //ip adress
+14.50:07 //1.30 downaload vm
+15.wordlists //pwd breakthrough
+16.crunch 8 8 -t %%%%%%%% -o /home/kali/Desktop/passwrdat.txt//%digit //@ char small with ,<-- char big // ~ <-- !@#$+-*%^&
+17.clear
+18.ifconfig ip kali /netdiscover ip windows
+------------
+ip address (يعطي ip لكل جهاز متصل بالراوتر) & mac address (عنوان الماك ومثبت في الجهاز)
+ 

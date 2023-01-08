@@ -1,0 +1,45 @@
+# Exceptions Handling
+# Try | Except | Else| Finally
+# Advanced Example
+
+the_file = None
+the_tries = 5
+
+while the_tries > 0:
+
+    try: # try to open the file
+
+        print("enter the file name with absolute path to open")
+
+        print(f"you have {the_tries} Tries Left")
+
+        print("Example: D:/WEB_PROGRAMMING/PYTHON/main.py")
+
+        file_name_and_path = input("File Name => : ").strip()
+
+        the_file = open(file_name_and_path, 'r')
+
+        print(the_file.read())
+
+        break
+
+    except FileNotFoundError:
+
+        print("file not found please be sure the name is valid")
+
+        the_tries -= 1
+
+    except:
+
+        print("Error Happen")
+
+    finally:
+
+        if the_file is not None :
+
+            the_file.close()
+
+            print("file closed.")
+else:
+
+    print("All Tries Is Done")
